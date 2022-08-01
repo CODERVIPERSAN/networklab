@@ -1,7 +1,7 @@
 
 from socket import socket,AF_INET,SOCK_STREAM
 
-server_address = ('localhost',1028)
+server_address = ('localhost',1030)
 print(__name__)
 if __name__=="__main__":
     with socket(AF_INET,SOCK_STREAM) as client:
